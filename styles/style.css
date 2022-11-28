@@ -40,7 +40,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  box-sizing: border-box;
 }
 
 .header {
@@ -283,6 +282,7 @@
   background-color: #1f1f1f;
   min-height: 350px;
   color:#fff;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -326,7 +326,7 @@
   padding-left: 26px;
 }
 
-.footer__column-link_youtube::before {
+.footer__column-link_icon_youtube::before {
   content: '';
   background-image: url(../images/youtube-icon.svg);
   background-repeat: no-repeat;
@@ -337,7 +337,7 @@
   position: absolute;
 }
 
-.footer__column-link_vk::before {
+.footer__column-link_icon_vk::before {
   content: '';
   background-image: url(../images/vk_color_white.svg);
   background-repeat: no-repeat;
@@ -348,7 +348,7 @@
   position: absolute;
 }
 
-.footer__column-link_tiktok::before {
+.footer__column-link_icon_tiktok::before {
   content: '';
   background-image: url(../images/tiktok-icon.svg);
   background-repeat: no-repeat;
