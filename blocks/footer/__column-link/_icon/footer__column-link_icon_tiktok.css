@@ -1,0 +1,11 @@
+.footer__column-link_icon_tiktok::before {
+  content: '';
+  background-image: url(../../../../images/tiktok-icon.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  bottom: 7px;
+  left: 0px;
+  position: absolute;
+  color: aliceblue;
+}

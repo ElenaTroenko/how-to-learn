@@ -1,0 +1,13 @@
+@keyframes triangle{
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+.kaufman__triangle {
+  transform: rotate(5deg);
+  animation: triangle 20s infinite normal linear;
+}

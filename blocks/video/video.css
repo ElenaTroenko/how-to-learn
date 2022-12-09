@@ -1,0 +1,7 @@
+@import url(./__frames/video__frames.css);
+@import url(./__frame/video__frame.css);
+
+.video {
+  padding-top: 100px;
+  margin-bottom: -60px;
+}
