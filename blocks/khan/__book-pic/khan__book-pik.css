@@ -1,7 +1,6 @@
 .khan__book-pic {
-  display: inline-block;
   width: 620px;
   height: 608px;
   margin-right: 48px;
-  vertical-align: top;
+  object-fit: cover;
 }
