@@ -2,5 +2,12 @@
   line-height: 30px;
   font-size: 18px;
   color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  transition: opacity 0.1s ease-in;
+
 }
 
+.footer__column-link:hover {
+  opacity: 0.6;
+}
